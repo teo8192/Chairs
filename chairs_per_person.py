@@ -5,6 +5,6 @@ for reservation in f:
     try:
         chairs_per_person = 50 / int(number)
     except:
-        print("error")
+        print("error ", number)
     else:
         print("{} will get {} chairs per person".format(name, chairs_per_person))
